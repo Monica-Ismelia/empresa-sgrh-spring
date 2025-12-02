@@ -16,11 +16,11 @@ Este proyecto implementa una **API REST** para gestionar empleados (CRUD: Crear,
 
 | Tecnología | Versión |
 |-----------|--------|
-| Java | 17 |
-| Spring Boot | 3.3.5 |
-| Spring Web | `spring-boot-starter-web` |
-| Spring Data JPA | `spring-boot-starter-data-jpa` |
-| MySQL | 8.0+ |
+| ☕Java | 17 |
+| 🍃Spring Boot | 3.3.5 |
+| 🍃Spring Web | `spring-boot-starter-web` |
+|🍃 Spring Data JPA | `spring-boot-starter-data-jpa` |
+|🐬 MySQL | 8.0+ |
 | Maven | 3.9+ |
 | Tomcat embebido | 10.1 |
 
@@ -69,13 +69,14 @@ La aplicación iniciará en:
 👉 http://localhost:8080
 
 🌐 Endpoints de la API
+| Método | Endpoint              | Descripción                |
+| ------ | --------------------- | -------------------------- |
+| POST   | `/api/empleados`      | Crear nuevo empleado       |
+| GET    | `/api/empleados`      | Listar empleados           |
+| GET    | `/api/empleados/{id}` | Buscar empleado por ID     |
+| PUT    | `/api/empleados/{id}` | Actualizar empleado por ID |
+| DELETE | `/api/empleados/{id}` | Eliminar empleado por ID   |
 
-| Método  | Endpoint             | Descripción                  |
-|--------|----------------------|------------------------------|
-| POST   | /api/empleados       | Crear nuevo empleado         |
-| GET    | /api/empleados       | Listar todos los empleados   |
-| PUT    | /api/empleados/{id}  | Actualizar empleado por ID   |
-| DELETE | /api/empleados/{id}  | Eliminar empleado por ID     |
 
 Ejemplo de cuerpo para POST o PUT:
 
@@ -111,8 +112,12 @@ Este proyecto cumple con la evidencia GA7-220501096-AA3-EV01 del programa Análi
 
 🔗 Enlace de repositorio
 Este repositorio está vinculado a la entrega académica.
-URL: https://github.com/Monica-Ismelia/empresa-sgrh-spring/tree/main/demo-spring
 
 
-Desarrollado con ❤️ por Monica Ismelia Cañas Reyes
-SENA – Análisis y Desarrollo de Software – 2025
+---
+
+🔹 **Autor:** Mónica Ismelia Cañas Reyes  
+🔹 **Programa:** Tecnólogo en Análisis y Desarrollo de Software  
+🔹 **Institución:** SENA — 2025
+
+---
